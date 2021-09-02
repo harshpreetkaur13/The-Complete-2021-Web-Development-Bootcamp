@@ -1,0 +1,11 @@
+cd g:
+cd Practice/WebDev
+mkdie APIs
+cd APIs
+mkdie Newsletter-Signup
+cd Newsletter-Signup
+touch app.js
+touch index.html sucess.html failure.html
+npm init
+npm install body-parser express request
+nodemon app.js

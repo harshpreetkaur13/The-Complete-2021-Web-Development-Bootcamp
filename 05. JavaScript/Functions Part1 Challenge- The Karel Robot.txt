@@ -1,0 +1,80 @@
+//1. move from one corner to another
+function main(){
+   //your code here
+   moveFourSteps();
+   turnLeft();
+   moveFourSteps();
+}
+
+function moveFourSteps(){
+   move();
+   move();
+   move();
+   move();
+}
+
+
+
+//2. put beeper diagonally
+function main(){
+   //your code here
+   putBeeper();
+   diagonalBeeper();
+   diagonalBeeper();
+   diagonalBeeper();
+   diagonalBeeper();
+}
+
+function diagonalBeeper(){
+   move();
+   turnLeft();
+   move();
+   putBeeper();
+   turnRight();
+}
+
+
+
+//3.put beeper diagonally
+function main(){
+   beepersRight();
+   goTurnLeft();
+   beepersLeft();
+   goTurnRight();
+      beepersRight();
+   goTurnLeft();
+   beepersLeft();
+   goTurnRight();
+      beepersRight();
+}
+ 
+function beepersRight() {
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();  
+}
+ 
+function beepersLeft() {
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+}
+
+function goTurnRight() {
+   turnRight();
+   move();
+   turnRight();
+}
+ 
+function goTurnLeft() {
+   turnLeft();
+   move();
+   turnLeft();
+}

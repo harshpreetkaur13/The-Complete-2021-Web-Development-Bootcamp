@@ -1,0 +1,11 @@
+1. Move to other drive (moving inside f drive)- cd /f
+2. Move inside directory of f drive - cd Practice/WebDev
+3. List files inside WebDev - ls
+4. Inside WebDev create new directory - mkdir Node
+5. Move inside Node directory - cd Node
+6. Create file inside Node - touch index1.js
+7. Execute content inside index1 - node index1.js
+
+8. Enter Node REPL - write node
+9. Exit REPL console - .exit
+10. Delete the content from terminal - clear

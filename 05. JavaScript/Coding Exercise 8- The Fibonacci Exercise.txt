@@ -1,0 +1,56 @@
+
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@harshpreetkaur13 
+harshpreetkaur13
+/
+The-Complete-2021-Web-Development-Bootcamp
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+The-Complete-2021-Web-Development-Bootcamp/05. JavaScript/Coding Exercise 8: The Fibonacci Exercise
+@harshpreetkaur13
+harshpreetkaur13 Rename 5. JavaScript/Coding Exercise 8: The Fibonacci Exercise to 05.…
+…
+Latest commit cef71e2 5 hours ago
+ History
+ 1 contributor
+25 lines (20 sloc)  461 Bytes
+  
+function fibonacciGenerator (n) {
+//Do NOT change any of the code above 👆
+    
+    //Write your code here:
+    var arr=[];
+   
+    if(n==1){
+        arr=[0];
+    }
+    else if(n==2){
+        arr=[0,1];
+    }
+    else{
+        arr=[0,1];
+        for(var i=2;i<n;i++){
+            arr.push(arr[i-2]+arr[i-1]);
+        }
+    }
+    
+    return arr;
+  
+    //Return an array of fibonacci numbers starting from 0.
+    
+//Do NOT change any of the code below 👇
+}

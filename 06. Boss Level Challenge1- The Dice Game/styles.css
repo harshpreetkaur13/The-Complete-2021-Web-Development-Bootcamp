@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kaisei+Tokumin:wght@700&display=swap');
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  border:#4ECCA3 6px double;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Kaisei Tokumin', serif;
+  font-style: italic;
+  text-shadow: 5px 0 #232931;
+  font-size: 5.5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Architects Daughter', cursive;
+}
+
+img {
+  width: 60%;
+  margin-bottom: 5%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}

@@ -1,0 +1,19 @@
+cd /g
+cd Practice/WebDev
+mkdir Express
+cd Express
+mkdie Calculator
+cd Calculator
+touch calculator.js
+nmp init
+nmp install express
+nodemon calculator.js
+
+touch index.html
+nodemon calculator.js
+
+npm install body-parser
+nodemon calculator.js
+
+touch bmiCalculator.html
+nodemon calculator.js

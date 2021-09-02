@@ -1,0 +1,19 @@
+//ask user for input
+var name=prompt("What is your name? ");
+
+//store first char in variable
+var firstChar=name.slice(0,1);
+
+//capitalize first char
+var capital=firstChar.toUpperCase();
+
+//store remaining string in variable
+var restName= name.slice(1,name.length);
+
+//change rest string to lowercase
+restName= restName.toLowerCase();
+
+//concatinate both the strings
+var capitalName=capital+restName;
+
+alert("Hello "+capitalName);
